@@ -1,15 +1,15 @@
 package oops;
 public class Polymorphism {
-    static void add(int a,int b){
+    void add(int a,int b){
         System.out.println(a+b);
     }
-    static void add(int a, int b,int c){
+     void add(int a, int b,int c){
         System.out.println(a+b+c);
     }
-    static void add(float a,float b){
+     void add(float a,float b){
         System.out.println(a+b);
     }
-    static void add(double a,double b){
+     void add(double a,double b){
         System.out.println(a+b);
     }
     public static void main(String[] args){
